@@ -43,7 +43,7 @@ export default function UserList() {
                 </Th>
                 <Th>Usuário</Th>
                 { isWideVersion && <Th>Data de cadastro</Th>}
-                { !isWideVersion && <Th width="8"></Th> }
+                { isWideVersion && <Th width="8"></Th> }
               </Tr>
             </Thead>
             <Tbody>
@@ -58,7 +58,7 @@ export default function UserList() {
                   </Box>
                 </Td>
                 { isWideVersion && <Td>04 de Abril, 2021</Td> }
-                { !isWideVersion && (
+                { isWideVersion && (
                   <Td>
                     <Button
                       as="a"
@@ -84,7 +84,7 @@ export default function UserList() {
                   </Box>
                 </Td>
                 { isWideVersion && <Td>04 de Abril, 2021</Td> }
-                { !isWideVersion && (
+                { isWideVersion && (
                   <Td>
                     <Button
                       as="a"
@@ -110,7 +110,7 @@ export default function UserList() {
                   </Box>
                 </Td>
                 { isWideVersion && <Td>04 de Abril, 2021</Td> }
-                { !isWideVersion && (
+                { isWideVersion && (
                   <Td>
                     <Button
                       as="a"
